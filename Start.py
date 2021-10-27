@@ -11,7 +11,7 @@ def main():
     os.environ['CUDA_VISIBLE_DEVICES'] = '0'
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-    filepath = r'../Solar_Flare_Data_Set/flare_data.csv'
+    filepath = r'./dataset/flare_data.csv'
     dataset = pd.read_csv(filepath)
     X_np, Y_np = transform_data(dataset)
     X_train, X_test, Y_train, Y_test = train_test_split(X_np, Y_np, test_size=0.3, random_state=666)
