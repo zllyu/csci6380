@@ -1,0 +1,7 @@
+1. Construct more robust model: Testing result is not good
+2. Add regression evaluation methods: Use skl-learn would be easier
+
+paper argument:
+talk about what we discover based on experiments
+compare to previous works, our advantage is ...
+claim the problem we have, and how we try to solve it
